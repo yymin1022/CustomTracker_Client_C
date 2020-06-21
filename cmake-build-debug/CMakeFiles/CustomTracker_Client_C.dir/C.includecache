@@ -9,4 +9,8 @@
 D:/AppProjects/C Projects/CustomTracker_Client_C/main.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 
