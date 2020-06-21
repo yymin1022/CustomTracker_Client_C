@@ -6,17 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/AppProjects/C Projects/CustomTracker_Client_C/main.c" "D:/AppProjects/C Projects/CustomTracker_Client_C/cmake-build-debug/CMakeFiles/CustomTracker_Client_C.dir/main.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "CURL_STATICLIB"
-  )
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../include"
-  "../lib"
   )
 
 # Targets to which this target links.
