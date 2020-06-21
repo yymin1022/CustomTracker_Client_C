@@ -3,8 +3,11 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/curl" />
+      <file path="$PROJECT_DIR$/include/curl" />
     </sourceRoots>
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/lib" />
+    </libraryRoots>
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
