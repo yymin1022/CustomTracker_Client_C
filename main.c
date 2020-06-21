@@ -10,25 +10,30 @@ int main() {
     strcpy(command, "CustomTracker_Client_Java.exe ");
 
     printf("Welcome to Custom Tracking Service.\n");
-    printf("Please input your Tracking Number. : ");
-    scanf("%s", trackNum);
 
-    printf("\nPlease select Menu.\n");
-    printf("1. Get Parcel Information\n");
-    printf("2. Get Parcel Tracking Information\n");
-    scanf("%d", &selMenu);
+    while(1){
+        printf("Please input your Tracking Number. : ");
+        scanf("%s", trackNum);
 
-    switch (selMenu){
-        case 1:
-            strcat(command, "Parcel ");
-            break;
-        case 2:
-            strcat(command, "Track ");
-            break;
+        printf("\nPlease select Menu.\n");
+        printf("1. Get Parcel Information\n");
+        printf("2. Get Parcel Tracking Information\n");
+        scanf("%d", &selMenu);
+
+        switch(selMenu){
+            case 1:
+                strcat(command, "Parcel ");
+                break;
+            case 2:
+                strcat(command, "Track ");
+                break;
+            default:
+                continue;
+        }
+        strcat(command, trackNum);
+
+        system(command);
     }
-    strcat(command, trackNum);
-
-    system(command);
 
     return 0;
 }
