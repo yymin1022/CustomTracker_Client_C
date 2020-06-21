@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    char *trackNum = "";
+    char *trackNum;
     char *command = malloc(sizeof(char) * 50);
     int selMenu;
 
