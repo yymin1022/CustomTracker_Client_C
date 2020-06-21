@@ -1,0 +1,3 @@
+D:/AppProjects/C Projects/CustomTracker_Client_C/cmake-build-debug/CMakeFiles/CustomTracker_Client_C.dir
+D:/AppProjects/C Projects/CustomTracker_Client_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AppProjects/C Projects/CustomTracker_Client_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
