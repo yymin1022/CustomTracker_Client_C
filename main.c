@@ -10,7 +10,7 @@ int main() {
     printf("Unipass 관세청 통관조회 서비스입니다.\n");
 
     while(1){
-        strcpy(command, "CustomTracker_Client_Java.exe ");
+        strcpy(command, "trackinfoparser.exe ");
 
         printf("관세청에서의 조회가 가능한 송장번호를 입력해주세요 : ");
         scanf("%s", trackNum);
